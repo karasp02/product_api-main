@@ -5,7 +5,7 @@ const products = require("./routes/products");
 const cors = require("cors");
 const ProductModel = require("./models/productModel");
 
-const HOST = process.env.HOST || "mongodb://127.0.0.1/Edge";
+const HOST = process.env.HOST || "mongodb://127.0.0.1/test";
 const PORT = process.env.PORT || 3001;
 
 const uri =
